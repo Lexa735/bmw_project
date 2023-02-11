@@ -6,6 +6,16 @@
   outline:none;
 }
 
+@font-face {font-family: "BMWTypeNext Pro"; src: 
+  url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot"); 
+  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro")
+  format("svg"); }
+
+
 a {
   text-decoration: none;
 }
@@ -44,7 +54,7 @@ ul{
   padding-top: 10%;
   grid-column: 1/2;
   grid-row: 2/3;
-  background-image: url(../images/BMW_5g30.jpg);
+  background-image: url(../images/bmw_5g30.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -53,7 +63,7 @@ ul{
   width: 100%;
   grid-column: 2/3;
   grid-row: 2/3;
-  background-image: url(../images/BMW_3.jpg);
+  background-image: url(../images/bmw_3.jpg);
   height: auto;
   background-size: cover;
   background-position: center center;
@@ -195,27 +205,31 @@ ul{
 }
 
 .span_luxury {
+  display:inline-block;
   font: 400 46px/46px Consolas, Arial, Sans-serif; 
   color:#fff;
 }
 
 .span_luxury_small{
+  display: inline-block;
   font: 400 36px/36px Consolas, Arial, Sans-serif; 
   color:#fff;
 }
 .span_sedan {
+  display: inline-block;
   font: 400 23px/23px Helvetica, Arial, Sans-serif;
   color:#fff;
-  margin: 15px 0 15px 0;
+  padding: 3px 0 15px 0;
 }
 
 .span_sedan_small {
+  display: inline-block;
   font: 400 18px/18px Helvetica, Arial, Sans-serif;
   color:#fff;
-  padding: 15px 0 15px 0;
+  padding: 3px 0 15px 0;
 }
 
-.link_transition, .link_preview_test {
+.link_transition, .link_test-drive {
   display: inline-block;
   padding: 10px 30px;
   background-color: #1b57ac;
@@ -223,6 +237,16 @@ ul{
   color: #fff;
   border: #1b57ac solid 2px;
   border-radius: 3px;
+}
+
+.link_test-drive {
+  background: 0;
+  border-color: #fff;
+  padding: 10px 25px;
+}
+
+.link_test-drive:hover {
+  opacity: 0.5;
 }
 
 .link_transition:hover {

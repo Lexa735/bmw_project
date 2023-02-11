@@ -1,0 +1,79 @@
+
+
+
+
+.testdrive {
+  width: 100%;
+  font: 100 16px/16px BMWTypeNext Pro, Arial, Sans-serif;
+  padding: 5% 7%;
+}
+
+.image_test {
+    width: 100%;
+}
+
+.title_test {
+    font-size: 26px;
+}
+
+.text_title_test {
+    display:inline-block;
+    padding:2% 0 5%;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.form_quest {
+  font: 600 20px/22px Helvetica, Arial, Sans-serif;
+  display:block;
+  padding: 1% 0 5%;
+}
+
+.form_testdrive {
+  width: 100%;
+  padding-right: calc(100% - 654px);
+}
+
+.select-car {
+    width: 100%;
+    border: 1px solid #000;
+    font: 200 18px/18px Verdana, Arial, Sans-serif;
+    padding: 5px 0 5px;
+    margin-bottom: 5%;
+}
+
+.input_test {
+  width: 100%;
+  border: 1px solid #000;
+  font: 200 18px/18px Verdana, Arial, Sans-serif;
+  margin-bottom: 5%;
+  padding: 5px 0 5px;
+}
+
+.text_form {
+  font: 100 12px/12px Arial, Verdana, Sans-serif;
+  display: inline-block;
+  width: 40%;
+  margin: 4% 3% 4% 0;
+}
+
+.radiobutton {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_checkbox {
+  font: 100 12px/12px Arial, Verdana, Sans-serif;
+  padding-left: 2%;
+}
+
+.button_form-test {
+  padding: 7px 40px;
+  background: #3f8bf5;
+  color:#fff;
+  margin-top: 3%;
+  border-radius: 2px;
+  font-size: 16px;
+}

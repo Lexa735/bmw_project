@@ -62,3 +62,24 @@
 
 
 
+@media  screen and (max-width: 830px) {
+  .container_exterior{
+    flex-wrap: wrap;
+  }
+
+  .inbox_bmw {
+  min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .container_exterior {
+    padding: 0 2%;
+  }
+
+  .inbox_bmw {
+    min-width: 290px;
+    }
+  
+}
+  

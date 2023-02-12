@@ -19,3 +19,28 @@ let V = document.querySelector(".svg_electro");
     }
 
 
+
+    let menuBtn = document.querySelector('.menu-btn');
+    let menu = document.querySelector('.burger-menu');
+    menuBtn.addEventListener('click', clickBtn);
+    function clickBtn(){
+      menu.classList.toggle('hidden-menu');
+    }
+   
+
+ 
+     
+    let menuBrg = document.querySelector('.menu-btn');
+    let menuel = document.querySelector('.list_electro');
+    
+    
+    menuBrg.addEventListener('click', clickBtEl);
+
+    function clickBtEl(){
+      if ( menuel.classList.contains("hidden") == true){
+        menuel.classList.add("hidden");
+      }
+  
+        console.log (clickBtEl)
+      }
+      

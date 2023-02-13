@@ -37,7 +37,7 @@ let V = document.querySelector(".svg_electro");
     menuBrg.addEventListener('click', clickBtEl);
 
     function clickBtEl(){
-      if ( menuel.classList.contains("hidden") == true){
+      if ( menuel.classList.contains("hidden") == false){
         menuel.classList.add("hidden");
       }
   
